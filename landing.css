@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  background:rgba(86, 174, 206, 0.985);
+  display: flex;
+  
+}
+
+
+#part1{
+  height: 100%;
+  width: 20%;
+/*  background-color: red;*/
+
+}
+#part2{
+  height: 100%;
+  width: 80%;
+ /*   background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  */
+ background-image: url('images/img6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: skyblue;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(66, 120, 116, 0.102);
+}
+#part3{
+/*  height: 100%;
+  width: 6%;*/
+ /*background-color: green;*/
+}
+.text{
+  height: 300px;
+  position: absolute;
+  width: 400px;
+  left: 7%;
+  top:44%;
+  color: rgb(8, 38, 38);
+  transform: translate(0, -50%);
+  
+}
+.text>h1{
+font-size: 98px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 8px;
+font-weight: 900;
+text-transform: uppercase; 
+line-height: 78px;
+
+}
+h1{
+  -webkit-text-stroke-width:3px ;
+-webkit-text-stroke-color: white;
+}
+#small-img{
+  height: 400px;
+  width: 300px;
+ /*  background-image: url(https://images.unsplash.com/photo-1529680459049-bf0340fa0755?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D); */
+ background-image:url('images/img1.jpg') ;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+}
+.vertical-text{
+  position: absolute;
+  top: 0;
+  right: -58%;
+  
+
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+}
+.vertical-text>h1{
+  font-size: 65px;
+  font-weight: 900;
+  transform-origin: 0% 0%;
+  color:rgb(8, 38, 38);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width:3px ;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 15px;
+
+
+}
+.nav{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 435px;
+
+  left: 7%;
+  top: 5%;
+
+}
+.nav img{
+  height: 40px;
+  border-radius: 30px;
+}
+.nav h5{
+  font-size: 24px;
+  color: rgb(8, 38, 38);
+}
